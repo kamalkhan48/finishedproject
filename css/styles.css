@@ -111,7 +111,7 @@ body{
 }
 .attribution {
   position: relative;
-  bottom: 20px;
+  top: 750px;
   font-size: 11px;
   text-align: center;
 }
@@ -206,8 +206,9 @@ body{
     color: hsl(300, 24%, 96%);
   }
   .attribution {
-    /* position: relative;
-    top: 0; */
+    position: relative;
+    top: auto;
+    bottom: 20px;
     font-size: 11px;
     text-align: center;
 
