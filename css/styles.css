@@ -1,6 +1,10 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(Spartan-VariableFont_wght.ttf);
+}
 body{
   background-image: url(../images/bg-pattern-top-desktop.svg);
-  font-family: Spartan:400,sans-serif;
+  font-family: Spartan;
   font-size: 15px;
 }
 .main-body{
@@ -20,6 +24,7 @@ body{
   width: 400px;
   color: HSL(300, 43%, 22%);
   font-size: 3em;
+  font-weight: 700;
   margin-bottom: 15px;
   line-height: 1;
 }
@@ -35,6 +40,7 @@ body{
 }
 .pera{
   margin: 13px 50px 13px 20px;
+  font-weight: 500;
 }
 .rating{
   padding-left: 20px;
