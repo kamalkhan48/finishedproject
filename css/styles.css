@@ -1,0 +1,219 @@
+body{
+  background-image: url(../images/bg-pattern-top-desktop.svg);
+  font-family: Spartan:400,sans-serif;
+  font-size: 15px;
+}
+.main-body{
+  margin: auto;
+  width: 1300px;
+}
+/* top container */
+.top-container{
+  position: relative;
+}
+.left-side{
+  padding:140px 100px 0 130px;
+  position: absolute;
+  left: 0;
+}
+.heading{
+  width: 400px;
+  color: HSL(300, 43%, 22%);
+  font-size: 3em;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+.heading-per{
+  width: 400px;
+  color: hsl(303, 10%, 53%);
+  margin-top: 5px;
+}
+.right-side{
+  padding: 180px 100px 0 130px;
+  position: absolute;
+  left: 600px;
+}
+.pera{
+  margin: 13px 50px 13px 20px;
+}
+.rating{
+  padding-left: 20px;
+  color: hsl(300, 43%, 22%);
+}
+.rating-pera{
+  background-color: hsl(300, 24%, 96%);
+  border: 1px solid hsl(300, 24%, 96%);
+  border-radius: 5px;
+  margin: 10px;
+}
+.one{
+  position: relative;
+  right: 30px;
+}
+.three{
+  position: relative;
+  left: 30px;
+}
+
+/* bottom container */
+.bottom-container{
+  position: relative;
+  top: 450px;
+  line-height: 1.5;
+}
+
+.bleft{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 20px;
+  position: absolute;
+  left: 120px;
+  top: -25px;
+  padding: 0 30px;
+  width: 300px;
+}
+.bcenter{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 20px;
+  position: absolute;
+  left: 500px;
+  padding: 0 30px;
+  width: 300px;
+}
+.bright{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 20px;
+  position: absolute;
+  left: 880px;
+  top: 25px;
+  padding: 0 30px 0;
+  width: 300px;
+}
+
+.buyer-image{
+  border-radius: 100%;
+  margin: 20px 20px 0 0;
+  width: 60px;
+}
+.buyer{
+  position: absolute;
+  left: 120px;
+  top: 25px;
+}
+.verification,.buyer-name{
+  margin: 0;
+  color: hsl(303, 10%, 53%);
+}
+.buyer-name{
+  color: hsl(300, 24%, 96%);
+}
+.msg{
+  color: hsl(300, 24%, 96%);
+}
+.attribution {
+  position: relative;
+  bottom: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* Media query start here */
+@media only screen and (max-width:900px) {
+  body{
+    text-align: center;
+    margin: auto;
+  }
+  .main-body{
+    margin: auto;
+    width: 100%;
+  }
+  .top-container{
+    width: 375px;
+    margin: 50px auto 50px;
+    position: static;
+  }
+  .left-side,.right-side{
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .one,.three{
+    position: static;
+  }
+  .heading{
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 270px;
+  }
+  .heading-per{
+    width: 340px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    color: hsl(303, 10%, 53%);
+    font-style: 400;
+  }
+  .pera{
+    margin: 10px auto;
+  }
+  .rating{
+    display: block;
+    margin-top: 5px;
+    padding: auto;
+  }
+  .rating-pera{
+    margin: 10px auto;
+    width: 340px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+  }
+  /* bottom container */
+
+  .bottom-container{
+    position: static;
+    margin: auto auto 50px;
+    width: 375px;
+    text-align: left;
+  }
+
+  .bleft,.bcenter,.bright{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 20px;
+    padding: 0 20px 10px;
+    width: 320px;
+    margin: auto auto 10px;
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+  .bright{
+    margin-bottom: 0;
+  }
+  .buyer{
+    position: absolute;
+    left: 110px;
+    top:
+  }
+  .verification,.buyer-name{
+    margin: 4px;
+  }
+  .msg{
+    color: hsl(300, 24%, 96%);
+  }
+  .attribution {
+    /* position: relative;
+    top: 0; */
+    font-size: 11px;
+    text-align: center;
+
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+/* media query ends here */
